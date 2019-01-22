@@ -43,7 +43,6 @@ function winner() {
 	}
 }
 
-
 function obr () {
 		document.getElementById('out').innerHTML = 'Начните заново игру через ' + t + ' секунд';
 		t--;
@@ -56,7 +55,13 @@ function obr () {
 	}
 }
 
-
 // 0 1 2
 // 3 4 5
 // 6 7 8
+
+document.getElementById('btn').onclick = function() {
+	location.reload();
+}
+
+
+
